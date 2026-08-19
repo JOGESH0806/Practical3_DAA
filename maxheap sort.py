@@ -3,9 +3,9 @@ def heapify(arr, n, i):
     Maintains the max heap property for a subtree rooted at index `i`.
     `n` is the active heap size.
     """
-    largest = i          # Initialize largest as root
-    left = 2 * i + 1     # Left child index
-    right = 2 * i + 2    # Right child index
+    largest = i        t
+    left = 2 * i + 1   
+    right = 2 * i + 2    
 
     if left < n and arr[left] > arr[largest]:
         largest = left
